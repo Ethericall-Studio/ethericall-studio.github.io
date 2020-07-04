@@ -49,6 +49,10 @@ body
     position: fixed;
 }
 
+.bug {
+    margin-bottom: 125px;
+}
+
 .content
 {
     text-align: center;
