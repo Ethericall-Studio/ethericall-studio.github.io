@@ -1,0 +1,252 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin: 0 !important;
+    background-color: #333;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+.header
+{
+	width:100%;
+	padding: 40px 0;
+}
+
+.content
+{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding-top: 220px;
+    color: #fff;
+}
+
+#logoonhome
+{
+    margin-left: 120px;
+    margin-top: 30px
+}
+
+#footer
+{
+    width: 100%;
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    position: fixed;
+}
+
+.content
+{
+    text-align: center;
+}
+
+@media (max-width: 1080px) {
+  body {
+    padding: 15px;
+  }
+}
+
+/* 
+=====
+EFFECT FADING OUT FOR SIBLINGS MENU OPTIONS 
+=====
+*/
+
+.menu:hover .menu__link:not(:hover){
+  color: #222;
+}
+
+/* 
+=====
+MENU STYLES
+=====
+*/
+
+/* core styles */
+
+.menu__list
+{
+  display: flex;  
+  text-align: center;
+  padding-left: 1px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  list-style: none; 
+    float:right;
+    margin-right: 50px;
+}
+
+.menu__group
+{
+  flex-grow: 1;
+}
+
+.menu__link
+{
+  display: block;
+}
+
+.menu__link
+{
+  padding: 20px; /* 2rem 1.5rem */
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* hover animation */
+
+.menu__link
+{
+  position: relative;
+  overflow: hidden;
+  will-change: opacity;
+  transition: color .25s ease-out ;
+}
+
+.menu__link::before
+{
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.menu__link::after
+{
+  right: 50%;
+  transform: translateX(50%); 
+}
+
+.menu__link:hover::before, 
+.menu__link:hover::after
+{
+  width: 100%;
+  transition-duration: .2s;
+}
+
+.menu__group
+{
+    font-size: 15px;
+} 
+
+#ds
+{
+    text-decoration: none;
+    color:aqua;
+}
+
+.managment {
+    margin-right: 250px;
+}
+
+.level-design {
+    margin-left: 250px;
+}
+
+.coding {
+    margin-right: 250px;
+}
+
+.graphic {
+    margin-left: 250px;
+}
+
+.marketing {
+    margin-right: 250px;
+}
+
+.sound {
+    margin-left: 250px;
+}
+
+#m
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#mm
+{
+    font-size:25px;
+    text-align:center;
+}
+
+#c
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#cm
+{
+    font-size:25px;
+    text-align:center;
+}
+
+#g
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#gm
+{
+    font-size:25px;
+    text-align:center;
+}
+
+#t
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#tm
+{
+    font-size:25px;
+    text-align:center;
+}
+
+#s
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#sm
+{
+    font-size:25px;
+    text-align:center;
+}
+
+#l
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
+}
+
+#lm
+{
+    font-size:25px;
+    text-align:center;
+}
