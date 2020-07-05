@@ -158,108 +158,18 @@ MENU STYLES
     color:aqua;
 }
 
-.managment {
-    margin-right: 250px;
-}
-
-.level-design {
-    margin-left: 250px;
-}
-
-.coding {
-    margin-right: 250px;
-}
-
-.graphic {
-    margin-left: 250px;
-}
-
-.marketing {
-    margin-right: 250px;
-}
-
-.sound {
-    margin-left: 250px;
+#h
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight:bold;
 }
 
 #m
 {
-    text-align: center;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-#mm
-{
     font-size:25px;
     text-align:center;
 }
-
-#c
-{
-    text-align: center;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-#cm
-{
-    font-size:25px;
-    text-align:center;
-}
-
-#g
-{
-    text-align: center;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-#gm
-{
-    font-size:25px;
-    text-align:center;
-}
-
-#t
-{
-    text-align: center;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-#tm
-{
-    font-size:25px;
-    text-align:center;
-}
-
-#s
-{
-    text-align: center;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-#sm
-{
-    font-size:25px;
-    text-align:center;
-}
-
-#l
-{
-    text-align: center;
-    font-size: 40px;
-    font-weight:bold;
-}
-
-#lm
-{
-    font-size:25px;
-    text-align:center;
-}
-
 
 /* Footer Fix (5.7.2020 21:37) */
 #footerfix
