@@ -68,7 +68,7 @@ EFFECT FADING OUT FOR SIBLINGS MENU OPTIONS
 =====
 */
 .menu:hover .menu__link:not(:hover) {
-  color: #fff;
+  color: #333;
 }
 
 /* 
