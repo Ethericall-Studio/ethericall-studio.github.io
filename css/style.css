@@ -20,7 +20,7 @@ body {
   margin-right: auto;
   text-align: justify;
   padding-top: 220px;
-  color: #fff;
+  color: #000;
 }
 
 #logoonhome {
@@ -31,9 +31,9 @@ body {
 #footer {
   width: 100%;
   padding: 20px;
-  background-color: #222;
+  background-color: #D5D5D5;
   text-align: center;
-  color: #fff;
+  color: #000;
   font-family: 'Lato';
   left: 0;
   right: 0;
