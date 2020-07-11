@@ -1,1 +1,1 @@
-Offical Ethericall Web Page: https://dogel-ai.github.io/beta-ethericall/
+Offical Ethericall Web Page: https://ethericall-studio.github.io/beta-ethericall/
