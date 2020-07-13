@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin: 0 !important;
-  background-color: #fff;
+  background-color: #333;
 }
 
 .wrapper {
@@ -20,20 +20,20 @@ body {
   margin-right: auto;
   text-align: justify;
   padding-top: 220px;
-  color: #000;
+  color: #fff;
 }
 
 #logoonhome {
   margin-left: 120px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #footer {
   width: 100%;
   padding: 20px;
-  background-color: #D5D5D5;
+  background-color: #222;
   text-align: center;
-  color: #000;
+  color: #fff;
   font-family: 'Lato';
   left: 0;
   right: 0;
@@ -68,7 +68,7 @@ EFFECT FADING OUT FOR SIBLINGS MENU OPTIONS
 =====
 */
 .menu:hover .menu__link:not(:hover) {
-  color: #333;
+  color: #222;
 }
 
 /* 
@@ -83,7 +83,7 @@ MENU STYLES
   display: flex;
   text-align: center;
   padding-left: 1px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 0;
   list-style: none;
   float: right;
