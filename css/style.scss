@@ -4,6 +4,7 @@ body
 	font-size: 20px;
 	margin: 0 !important;
   background-color: #333;
+    overflow: hidden;
 }
 
 .wrapper
@@ -163,17 +164,6 @@ MENU STYLES
 {
   font-size:25px;
   text-align:center;
-}
-
-/* Footer Fix (5.7.2020 21:37) */
-#footerfix
-{
-  margin-right: 43px;
-}
-
-#footerversion
-{
-  @extend #footerfix;
 }
 
 #navbargorola
