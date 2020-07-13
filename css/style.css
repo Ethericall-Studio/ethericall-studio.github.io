@@ -157,6 +157,11 @@ MENU STYLES
   text-align: center;
 }
 
+/* Footer Fix (5.7.2020 21:37) */
+#footerfix, #footerversion {
+  margin-right: 43px;
+}
+
 #navbargorola
 {
     background-color: #333;
