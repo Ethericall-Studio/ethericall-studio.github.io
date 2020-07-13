@@ -1,0 +1,163 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 0 !important;
+  background-color: #333;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-top: 220px;
+  color: #fff;
+}
+
+#logoonhome {
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+  font-family: 'Lato';
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+}
+
+.bug {
+  margin-bottom: 125px;
+}
+
+.version {
+  font-size: 9px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+@media (max-width: 1080px) {
+  body {
+    padding: 15px;
+  }
+}
+
+/* 
+=====
+EFFECT FADING OUT FOR SIBLINGS MENU OPTIONS 
+=====
+*/
+.menu:hover .menu__link:not(:hover) {
+  color: #222;
+}
+
+/* 
+=====
+MENU STYLES
+=====
+*/
+/* core styles */
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-left: 1px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  list-style: none;
+  float: right;
+  margin-right: 50px;
+}
+
+.menu__group {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.menu__link {
+  display: block;
+}
+
+.menu__link {
+  padding: 20px;
+  /* 2rem 1.5rem */
+  font-weight: 700;
+  color: #D5D5D5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* hover animation */
+.menu__link {
+  position: relative;
+  overflow: hidden;
+  will-change: opacity;
+  -webkit-transition: color .25s ease-out;
+  transition: color .25s ease-out;
+}
+
+.menu__link::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.menu__link::after {
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.menu__link:hover::before, .menu__link:hover::after {
+  width: 100%;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+
+.menu__group {
+  font-size: 15px;
+}
+
+#ds {
+  text-decoration: none;
+  color: aqua;
+}
+
+#h {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#m {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Footer Fix (5.7.2020 21:37) */
+#footerfix, #footerversion {
+  margin-right: 43px;
+}
+/*# sourceMappingURL=style.css.map */
