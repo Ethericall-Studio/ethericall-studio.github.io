@@ -1,10 +1,3 @@
-::-webkit-scrollbar {
-    display: none;
-}
-
-::-ms-webkit-scrollbar {
-    display: none;
-}
 
 body
 {
@@ -188,4 +181,13 @@ MENU STYLES
 #navbargorola
 {
     background-color: #333;
+}
+
+#footerfix2 {
+  margin-right: 26px;
+}
+
+#footerversion2
+{
+    @extend footerfix2;
 }
