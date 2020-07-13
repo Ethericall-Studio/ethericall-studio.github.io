@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-ms-webkit-scrollbar {
+    display: none;
+}
+
 body
 {
 	font-family: 'Lato', sans-serif;
@@ -184,8 +192,4 @@ MENU STYLES
 
 html {
   overflow:   scroll;
-}
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
 }
