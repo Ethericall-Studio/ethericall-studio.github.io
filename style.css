@@ -25,7 +25,7 @@ body {
 
 #logoonhome {
   margin-left: 120px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #footer {
@@ -83,7 +83,7 @@ MENU STYLES
   display: flex;
   text-align: center;
   padding-left: 1px;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 0;
   list-style: none;
   float: right;
