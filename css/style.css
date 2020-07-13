@@ -2,7 +2,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin: 0 !important;
-  background-color: #333;
+  background-color: #fff;
 }
 
 .wrapper {
@@ -20,7 +20,7 @@ body {
   margin-right: auto;
   text-align: justify;
   padding-top: 220px;
-  color: #fff;
+  color: #000;
 }
 
 #logoonhome {
@@ -160,4 +160,10 @@ MENU STYLES
 #footerfix, #footerversion {
   margin-right: 43px;
 }
+
+#navbargorola
+{
+    background-color: #333;
+}
+
 /*# sourceMappingURL=style.css.map */
