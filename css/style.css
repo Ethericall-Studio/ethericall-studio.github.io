@@ -3,7 +3,6 @@ body {
   font-size: 20px;
   margin: 0 !important;
   background-color: #fff;
-    overflow: hidden;
 }
 
 .wrapper {
@@ -165,6 +164,14 @@ MENU STYLES
 #navbargorola
 {
     background-color: #333;
+}
+
+html {
+  overflow:   scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 /*# sourceMappingURL=style.css.map */
