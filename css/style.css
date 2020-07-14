@@ -158,16 +158,12 @@ MENU STYLES
 
 /* Footer Fix (5.7.2020 21:37) */
 #footerfix, #footerversion {
-  margin-right: 43px;
+  margin-right: 1.75vw;
 }
 
 #navbargorola
 {
     background-color: #333;
-}
-
-#footerfix2, #footerversion2 {
-  margin-right: 26px;
 }
 
 /*# sourceMappingURL=style.css.map */
