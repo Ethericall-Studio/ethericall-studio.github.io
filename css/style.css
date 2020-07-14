@@ -92,8 +92,8 @@ MENU STYLES
 
 .menu__group {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .menu__link {
@@ -121,19 +121,19 @@ MENU STYLES
 .menu__link::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .menu__link::after {
   right: 50%;
   -webkit-transform: translateX(50%);
-          transform: translateX(50%);
+  transform: translateX(50%);
 }
 
 .menu__link:hover::before, .menu__link:hover::after {
   width: 100%;
   -webkit-transition-duration: .2s;
-          transition-duration: .2s;
+  transition-duration: .2s;
 }
 
 .menu__group {
@@ -161,9 +161,7 @@ MENU STYLES
   margin-right: 1.75vw;
 }
 
-#navbargorola
-{
-    background-color: #333;
+#navbargorola {
+  background-color: #333;
 }
-
 /*# sourceMappingURL=style.css.map */
