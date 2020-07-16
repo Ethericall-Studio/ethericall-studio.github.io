@@ -151,7 +151,7 @@ MENU STYLES
   font-weight: bold;
 }
 
-#m {
+#m, #dogel {
   font-size: 22px;
   text-align: center;
 }
@@ -167,5 +167,11 @@ MENU STYLES
 
 #navbargorola {
   background-color: #333;
+}
+
+#switch {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
