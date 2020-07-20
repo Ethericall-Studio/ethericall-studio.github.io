@@ -182,7 +182,29 @@ MENU STYLES
   margin-left: 10px;
 }
 
-.iin
+#contactcard
 {
-  font-size: 18px;
+  border-radius: 25px;
+  background: #333;
+  padding: 20px;
+  width: 500px;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  margin-left: 200px;
+}
+
+#link
+{
+  color: #fff;
+}
+
+#link:visited
+{
+  @extend #link;
+}
+
+#link:hover
+{
+  @extend #link;
 }
