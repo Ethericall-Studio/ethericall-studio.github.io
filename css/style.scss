@@ -175,13 +175,6 @@ MENU STYLES
   @extend #m;
 }
 
-#switch
-{
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
-}
-
 #contactcard
 {
   border-radius: 25px;
@@ -207,4 +200,10 @@ MENU STYLES
 #link:hover
 {
   @extend #link;
+}
+
+#switch
+{
+  float:left;
+  color: #D5D5D5;
 }

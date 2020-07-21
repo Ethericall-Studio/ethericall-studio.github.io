@@ -169,12 +169,6 @@ MENU STYLES
   background-color: #333;
 }
 
-#switch {
-  margin: 0;
-  padding: 0;
-  margin-left: 10px;
-}
-
 #contactcard {
   border-radius: 25px;
   background: #333;
@@ -188,5 +182,10 @@ MENU STYLES
 
 #link, #link:visited, #link:hover {
   color: #fff;
+}
+
+#switch {
+  float: left;
+  color: #D5D5D5;
 }
 /*# sourceMappingURL=style.css.map */
