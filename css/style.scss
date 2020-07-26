@@ -157,12 +157,20 @@ MENU STYLES
 }
 
 /* Footer Fix (5.7.2020 21:37) */
-#footerfix, #footerversion {
-  margin-right: 2.5vw;
+#footerfix {
+  margin-right: 2.75vw;
 }
 
-#footerfix2, #footerversion2 {
+#footerversion {
+	margin-right: 5.50vw;
+}
+
+#footerfix2 {
   margin-right: 3.40vw;
+}
+
+#footerversion2 {
+	margin-right: 6.50vw;
 }
 
 #navbargorola
