@@ -1,4 +1,4 @@
-window.addEventListener('click', () => {
+window.addEventListener('load', () => {
 	
 	var rythm = new Rythm()
 	rythm.crossOrigin = 'anonymous';
