@@ -1,9 +1,12 @@
-<nav class="menu">
-<ul class="menu__list">
-<li class="menu__group"><a href="index.html" class="menu__link">Home</a></li>
-<!-- <li class="menu__group"><a href="projects.html" class="menu__link">Projects</a></li> -->
-<li class="menu__group"><a href="members.html" class="menu__link">Members</a></li>
-<li class="menu__group"><a href="about.html" class="menu__link">About</a></li>
-<li class="menu__group"><a href="contact.html" class="menu__link">Contact</a></li>
+<nav class="nav" role="navigation">
+<span class="logo"><a href="{{ site.baseurl }}">Ethericall Studio</a></span>
+<input class="menu-btn" type="checkbox" id="menu-btn"/>
+<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+<ul class="menu">
+<li><a href="{{ site.baseurl }}" aria-label="Back to home page">Home</a></li>
+<li><a href="{{ site.baseurl }}/members" aria-label="See portfolio">Members</a></li>
+<li><a href="{{ site.baseurl }}/about" aria-label="About studio">About</a></li>
+<li><a href="{{ site.baseurl }}/contact" aria-label="Contact us">Contact</a></li>
+{% endif %}<li><a href="{{ site.github }}" target="_blank" rel="noopener">Github</a></li>{% endif %}
 </ul>
 </nav>
