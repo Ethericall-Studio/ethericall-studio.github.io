@@ -7,6 +7,6 @@
 <li><a href="{{ site.baseurl }}/members" aria-label="See portfolio">Members</a></li>
 <li><a href="{{ site.baseurl }}/about" aria-label="About studio">About</a></li>
 <li><a href="{{ site.baseurl }}/contact" aria-label="Contact us">Contact</a></li>
-{% endif %}<li><a href="{{ site.github }}" target="_blank" rel="noopener">Github</a></li>{% endif %}
+{% if site.github %}<li><a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener">Github</a></li>{% endif %}
 </ul>
 </nav>
