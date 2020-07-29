@@ -15,39 +15,11 @@ body {
 }
 
 .content {
-  width: 960px;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  padding-top: 220px;
   color: #000;
   text-align: center;
-  margin-bottom: 125px;
-}
-
-.contenti {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  padding-top: 220px;
-  color: #000;
-  text-align: center;
-  margin-bottom: 125px;
-  float: left;
-}
-
-.contenti p {
-  margin: 0;
-  padding: 0;
-  margin-left: 400px;
-  text-align: left;
-}
-
-.contenti h1 {
-  padding: 0;
-  margin: 0;
-  margin-top: 20px;
 }
 
 #logoonhome {
@@ -67,7 +39,6 @@ body {
   bottom: 0;
   font-size: 15px;
   font-weight: 600;
-  position: fixed;
 }
 
 .bug {
@@ -84,21 +55,14 @@ body {
   }
 }
 
-/* 
-=====
-EFFECT FADING OUT FOR SIBLINGS MENU OPTIONS 
-=====
-*/
 .menu:hover .menu__link:not(:hover) {
   color: #222;
 }
 
-/* 
-=====
-MENU STYLES
-=====
-*/
-/* core styles */
+.menu {
+	background-color: #333;
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,14 +88,12 @@ MENU STYLES
 
 .menu__link {
   padding: 20px;
-  /* 2rem 1.5rem */
   font-weight: 700;
   color: #D5D5D5;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-/* hover animation */
 .menu__link {
   position: relative;
   overflow: hidden;
@@ -195,10 +157,6 @@ MENU STYLES
   margin-right: 6.50vw;
 }
 
-#navbargorola {
-  background-color: #333;
-}
-
 #contactcard {
   border-radius: 25px;
   background: #333;
@@ -219,4 +177,3 @@ MENU STYLES
   color: #D5D5D5;
   font-family: 'Lato';
 }
-/*# sourceMappingURL=style.css.map */
