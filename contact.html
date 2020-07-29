@@ -1,52 +1,7 @@
-<html lang="en">
-<head>
-    <title>Home | New Ethericall</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="img/EC.png" rel="icon">
-    <link href="icons/css/all.css" rel="stylesheet">
-</head>
-    
-<body>
-    <div class="page">
-  <div id="navbargorola">
-        
-
-    
-  <nav class="menu">
-    <ul class="menu__list">
-      <li class="menu__group"><a href="index.html" class="menu__link">Home</a></li>
-      <!-- <li class="menu__group"><a href="projects.html" class="menu__link">Projects</a></li> -->
-      <li class="menu__group"><a href="members.html" class="menu__link">Members</a></li>
-      <li class="menu__group"><a href="about.html" class="menu__link">About</a></li>
-      <li class="menu__group"><a href="contact.html" class="menu__link">Contact</a></li>
-    </ul>
-  </nav> 
-
-        <a href="index.html">
-        <img src="img/EC.png" width="60" height="60" alt="logo.png" id="logoonhome">
-        </a>
-    
-    <hr id="navbarline">
-    
-        </div>
-    </div>
-    
-    <div class="content">
-         <p id="contactcard"><a href="mailto:ethericall.help@gmail.com" id="link"><i class="fas fa-envelope"></i>&nbsp;ethericall.help@gmail.com</a><br>
-         <a id="link" href="https://discord.gg/PHu3VZC"><i class="fab fa-discord"></i>&nbsp;https://discord.gg/PHu3VZC</a>
-        </p>
-    </div>
-    
-    
-    <div id="footer">
-        <p id="footerfix2">New Ethericall &copy; All rights reserved</p><small id="footerversion2">v. 1.1.1</small>
-
-        <a id="switch" href="members.html">
-            English&nbsp;<i class="fas fa-globe-americas"></i>
-        </a>
-    </div>
-    
-</body>
-
-</html>
+---
+layout: "default"
+---
+<p id="contactcard">
+{% if site.email %}<a href="mailto:{{ site.email }}" id="link"><i class="fas fa-envelope"></i> {{ site.email }}</a><br>{% endif %}
+{% if site.discord %}<a href="{{ site.discord }}"><i class="fab fa-discord"></i> {{ site.discord }}</a>{% endif %}
+</p>
