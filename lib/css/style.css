@@ -23,7 +23,7 @@ body {
 .content {
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  padding-top: 150px;
   color: #000;
   text-align: center;
 }
@@ -239,23 +239,6 @@ stroke: #ccc;
   text-align: center;
 }
 
-/* Footer Fix (5.7.2020 21:37) */
-#footerfix {
-  margin-right: 2.75vw;
-}
-
-#footerversion {
-  margin-right: 5.50vw;
-}
-
-#footerfix2 {
-  margin-right: 3.40vw;
-}
-
-#footerversion2 {
-  margin-right: 6.50vw;
-}
-
 #contactcard {
   border-radius: 25px;
   background: #333;
@@ -265,10 +248,6 @@ stroke: #ccc;
   color: #fff;
   text-align: center;
   margin-left: 200px;
-}
-
-#link, #link:visited, #link:hover {
-  color: #fff;
 }
 
 #switch {

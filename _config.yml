@@ -8,6 +8,9 @@ github: "Ethericall-Studio"
 name: "Beta Ethericall"
 title: "Beta Ethericall"
 
+# Site version
+version: "v1.1.1"
+
 # Site Description
 description: "Ethericall official website"
 
