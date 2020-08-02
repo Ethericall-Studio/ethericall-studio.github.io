@@ -55,18 +55,12 @@ text-decoration: none;
   font-weight: 600;
 }
 
-.bug {
-  margin-bottom: 125px;
+.footer * {
+  text-align: center;
 }
 
 .version {
   font-size: 9px;
-}
-
-@media (max-width: 1080px) {
-  body {
-    padding: 15px;
-  }
 }
 
 .nav {
