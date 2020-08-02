@@ -1,0 +1,4 @@
+---
+layout: "default"
+---
+{% if site.discord-id and site.discord-theme %}<iframe src="https://discord.com/widget?id={{ site.discord-id }}&theme={{ site.discord-theme }}" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" style="float: left;"></iframe>{% else %}<meta http-equiv="refresh" content="0; url='{{ site.baseurl }}'">{% endif %}
