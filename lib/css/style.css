@@ -1,14 +1,14 @@
 :root {
---333: #333;
---f4f4f4: #f4f4f4;
---white: #fff;
+--333: .333;
+--f4f4f4: .f4f4f4;
+--white: .fff;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin: 0 !important;
-  background-color: #fff;
+  background-color: .fff;
 }
 
 .wrapper {
@@ -27,26 +27,26 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 150px;
-  color: #000;
+  color: .000;
   text-align: center;
 }
 
-#logoonhome {
+.logoonhome {
   margin-left: 120px;
   margin-top: 10px;
 }
 
 a {
-color: #000 !important;
+color: .000 !important;
 text-decoration: none;
 }
 
-#footer {
+.footer {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: #fff;
+  color: .fff;
   font-family: 'Lato';
   left: 0;
   right: 0;
@@ -228,39 +228,39 @@ transition: 500ms all;
 }
 
 .menu-icon svg {
-stroke: #ccc;
+stroke: .ccc;
 }
 
-#ds {
+.ds {
   text-decoration: none;
-  color: #7289da;
+  color: .7289da;
 }
 
-#h {
+.h {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
 }
 
-#m, #dogel {
+.m, .dogel {
   font-size: 22px;
   text-align: center;
 }
 
-#contactcard {
+.contactcard {
   border-radius: 25px;
-  background: #333;
+  background: .333;
   padding: 20px;
   width: 500px;
   height: 100px;
-  color: #fff;
+  color: .fff;
   text-align: center;
   margin-left: 200px;
 }
 
-#switch {
+.switch {
   float: left;
-  color: #D5D5D5;
+  color: .D5D5D5;
   font-family: 'Lato';
 }
-/*# sourceMappingURL=style.css.map */
+/*. sourceMappingURL=style.css.map */
