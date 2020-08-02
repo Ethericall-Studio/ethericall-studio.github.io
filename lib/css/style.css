@@ -1,7 +1,7 @@
 :root {
---333: .333;
---f4f4f4: .f4f4f4;
---white: .fff;
+--333: #333;
+--f4f4f4: #f4f4f4;
+--white: #fff;
 }
 
 body {
@@ -71,16 +71,13 @@ top: 0;
 transition: 500ms all !important;
 z-index: 9999;
 user-select: none;
+box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
 }
 
 @media screen and (max-width: 705px) {
 a:hover {
 background-size: 0%;
 }
-}
-
-.nav:not(.nav-scroled):hover, .nav.nav-scrolled {
-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
 }
 
 .nav ul {
