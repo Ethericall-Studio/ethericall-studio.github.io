@@ -1,1 +1,0 @@
-# Polish version of site
