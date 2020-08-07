@@ -31,7 +31,7 @@ body {
   text-align: center;
 }
 
-.logoonhome {
+#logoonhome {
   margin-left: 120px;
   margin-top: 10px;
 }
@@ -41,12 +41,12 @@ color: #000 !important;
 text-decoration: none;
 }
 
-.footer {
+#footer {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  color: .fff;
+  color: #fff;
   font-family: 'Lato';
   left: 0;
   right: 0;
@@ -222,23 +222,18 @@ transition: 500ms all;
 stroke: #ccc;
 }
 
-.ds {
+#ds {
   text-decoration: none;
   color: #7289da;
 }
 
-.h {
+#h {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
 }
 
-.m {
-  font-size: 22px;
-  text-align: center;
-}
-
-.contactcard {
+#contactcard {
   border-radius: 25px;
   background: #333;
   padding: 20px;
@@ -249,9 +244,9 @@ stroke: #ccc;
   margin-left: 200px;
 }
 
-.switch {
+#switch {
   float: left;
   color: #D5D5D5;
   font-family: 'Lato';
 }
-/*. sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
