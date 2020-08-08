@@ -227,7 +227,7 @@ body {
 #footer {
   width: 100%;
   padding: 20px;
-  background-color: #222;
+  background-color: var(--white);
   text-align: center;
   color: #fff;
   font-family: 'Lato';
@@ -236,7 +236,7 @@ body {
   bottom: 0;
   font-size: 15px;
   font-weight: 600;
-  position: fixed;
+  position: absolute;
 }
 
 .bug {
@@ -258,29 +258,9 @@ body {
   font-weight: bold;
 }
 
-#m, #dogel {
+#m {
   font-size: 22px;
   text-align: center;
-}
-
-#footerfix {
-  margin-right: 2.75vw;
-}
-
-#footerversion {
-  margin-right: 5.50vw;
-}
-
-#footerfix2 {
-  margin-right: 3.40vw;
-}
-
-#footerversion2 {
-  margin-right: 6.50vw;
-}
-
-#navbargorola {
-  background-color: #333;
 }
 
 #contactcard {
