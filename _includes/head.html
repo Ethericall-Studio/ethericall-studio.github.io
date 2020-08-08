@@ -20,9 +20,9 @@
 <meta name="msapplication-config" content="{{ site.baseurl }}/lib/favicon/browserconfig.xml">
 {% include seo.html %}
 {% if page.layout == '404' %}
-<link rel="stylesheet" href="{{ site.baseurl }}/lib/css/404.min.css">
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/lib/css/404.min.css">
 {% else %}
-<link rel="stylesheet" href="{{ site.baseurl }}/lib/css/style.css">
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/lib/css/style.css">
 {% endif %}
 {% if page.redirect %}<meta http-equiv="refresh" content="0; url='{{ page.redirect }}'">{% endif %}
 {% if page.block %}
