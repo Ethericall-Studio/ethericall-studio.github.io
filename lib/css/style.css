@@ -257,19 +257,11 @@ color: #fff;
 }
 
 #footer {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: var(--white);
-  text-align: center;
-  color: #000;
-  font-family: 'Lato';
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
+text-align: center;
+color: #000;
+font-size: 12px;
+margin: 2em;
+transition: 500ms all;
 }
 
 .bug {
