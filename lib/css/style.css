@@ -5,7 +5,7 @@
 }
 
 .version {
-  font-size: 9px;
+font-size: 9px;
 }
 
 .nav {
@@ -168,28 +168,29 @@ stroke: #ccc;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  margin: 0 !important;
-  background-color: #fff;
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+margin: 0 !important;
+background-color: #fff;
 }
 
 .wrapper {
-  width: 100%;
+width: 100%;
 }
 
 .header {
-  width: 100%;
-  padding: 40px 0;
+width: 100%;
+padding: 40px 0;
 }
 
 .content {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  color: #000;
-  text-align: center;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+text-align: justify;
+color: #000;
+text-align: center;
+margin-top: 80px;
 }
 
 .hero-section {
@@ -252,8 +253,8 @@ color: #fff;
 }
 
 #logoonhome {
-  margin-left: 120px;
-  margin-top: 10px;
+margin-left: 120px;
+margin-top: 10px;
 }
 
 #footer {
@@ -282,43 +283,43 @@ grid-template-areas: "one one one . ."
 }
 
 .version {
-  font-size: 9px;
+font-size: 9px;
 }
 
 #ds {
-  text-decoration: none;
-  color: #7289da;
+text-decoration: none;
+color: #7289da;
 }
 
 #h {
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
 }
 
 #m {
-  font-size: 22px;
-  text-align: center;
+font-size: 22px;
+text-align: center;
 }
 
 #contactcard {
-  border-radius: 25px;
-  background: #333;
-  padding: 20px;
-  width: 500px;
-  height: 100px;
-  color: #fff;
-  text-align: center;
-  margin-left: 200px;
+border-radius: 25px;
+background: #333;
+padding: 20px;
+width: 500px;
+height: 100px;
+color: #fff;
+text-align: center;
+margin-left: 200px;
 }
 
 #link, #link:visited, #link:hover {
-  color: #fff;
+color: #fff;
 }
 
 #switch {
-  float: left;
-  color: #D5D5D5;
-  font-family: 'Lato';
+float: left;
+color: #D5D5D5;
+font-family: 'Lato';
 }
 /*# sourceMappingURL=style.css.map */
