@@ -21,6 +21,12 @@ discord-theme: "dark"
 # Discord support server ID
 discord-id: "623945078506782762"
 
+# Google tracking id
+# tracking_id: "UA-"
+
+# Google site verification
+# verivication: "456dsvhbwhygjud"
+
 # Site base-url (no slash at end, not link!)
 baseurl: "beta-ethericall/"
 
