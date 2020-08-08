@@ -258,10 +258,11 @@ color: #fff;
 
 #footer {
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: var(--white);
   text-align: center;
-  color: #fff;
+  color: #000;
   font-family: 'Lato';
   left: 0;
   right: 0;
