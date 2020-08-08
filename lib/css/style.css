@@ -205,6 +205,7 @@ width: 100%;
 height: 100vh;
 color: var(--light);
 background-size: cover;
+font-family: "Lato";
 transition: 500ms all;
 }
 
