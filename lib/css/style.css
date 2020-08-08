@@ -4,61 +4,6 @@
 --white: #fff;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  margin: 0 !important;
-  background-color: #fff;
-}
-
-.wrapper {
-  width: 100%;
-}
-
-.header {
-  width: 100%;
-  padding: 40px 0;
-}
-
-.content {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 150px;
-  color: #000;
-  text-align: center;
-}
-
-#logoonhome {
-  margin-left: 120px;
-  margin-top: 10px;
-}
-
-a {
-color: #000 !important;
-text-decoration: none;
-}
-
-#footer {
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Lato';
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.footer * {
-  text-align: center;
-}
-
 .version {
   font-size: 9px;
 }
@@ -222,6 +167,86 @@ transition: 500ms all;
 stroke: #ccc;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  margin: 0 !important;
+  background-color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-top: 220px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 125px;
+}
+
+.contenti {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-top: 220px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 125px;
+  float: left;
+}
+
+.contenti p {
+  margin: 0;
+  padding: 0;
+  margin-left: 400px;
+  text-align: left;
+}
+
+.contenti h1 {
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+#logoonhome {
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #222;
+  text-align: center;
+  color: #fff;
+  font-family: 'Lato';
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+}
+
+.bug {
+  margin-bottom: 125px;
+}
+
+.version {
+  font-size: 9px;
+}
+
 #ds {
   text-decoration: none;
   color: #7289da;
@@ -233,6 +258,31 @@ stroke: #ccc;
   font-weight: bold;
 }
 
+#m, #dogel {
+  font-size: 22px;
+  text-align: center;
+}
+
+#footerfix {
+  margin-right: 2.75vw;
+}
+
+#footerversion {
+  margin-right: 5.50vw;
+}
+
+#footerfix2 {
+  margin-right: 3.40vw;
+}
+
+#footerversion2 {
+  margin-right: 6.50vw;
+}
+
+#navbargorola {
+  background-color: #333;
+}
+
 #contactcard {
   border-radius: 25px;
   background: #333;
@@ -242,6 +292,10 @@ stroke: #ccc;
   color: #fff;
   text-align: center;
   margin-left: 200px;
+}
+
+#link, #link:visited, #link:hover {
+  color: #fff;
 }
 
 #switch {
