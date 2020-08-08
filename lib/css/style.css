@@ -193,6 +193,11 @@ text-align: center;
 margin-top: 80px;
 }
 
+a {
+text-decoration: underline;
+color: #000;
+}
+
 .hero-section {
 display: flex;
 align-items: center;
