@@ -9,7 +9,7 @@ layout: "null"
 
 @font-face {
 font-family: Roboto-Thin;
-  src: url('{{ site.baseurl }}/lib/fonts/roboto-thin.otf');
+src: url('{{ site.baseurl }}/lib/fonts/roboto-thin.otf');
 }
 
 .version {
@@ -191,7 +191,7 @@ width: 100%;
 padding: 40px 0;
 }
 
-.content {
+.content:not(.hero-section) {
 width: 100%;
 margin-left: auto;
 margin-right: auto;
