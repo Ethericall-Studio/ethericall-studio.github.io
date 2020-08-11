@@ -18,6 +18,7 @@
 <meta name="msapplication-config" content="{{ site.baseurl }}/lib/favicon/browserconfig.xml">
 <meta name="msapplication-TileImage" content="{{ site.baseurl }}/lib/favicon/mstile-144x144.png">
 <meta name="msapplication-config" content="{{ site.baseurl }}/lib/favicon/browserconfig.xml">
+{% if site.discord-id and site.discord-theme %}<link rel="preconnect dns-prefetch" href="https://discord.com">{% endif %}
 {% include seo.html %}
 {% if page.layout == '404' %}
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/lib/css/404.min.css">
