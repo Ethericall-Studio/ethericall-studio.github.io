@@ -4,6 +4,13 @@
 --white: #fff;
 }
 
+@font-face {
+font-family: Roboto-Thin;
+src: url('https://igorkowalczyk.github.io/lib/fonts/roboto-thin.otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .version {
 font-size: 9px;
 }
