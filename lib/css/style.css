@@ -191,7 +191,7 @@ width: 100%;
 padding: 40px 0;
 }
 
-.content:not(.hero-section) {
+.content {
 margin-left: auto;
 margin-right: auto;
 text-align: justify;
@@ -334,4 +334,5 @@ float: left;
 color: #D5D5D5;
 font-family: Roboto-Thin;
 }
+
 /*# sourceMappingURL=style.css.map */
