@@ -319,6 +319,7 @@ opacity: 0,5;
 border: 0;
 height: 1px;
 background: var(--333);
+transition: 500ms all;
 }
 
 @media screen and (max-width: 500px) {
