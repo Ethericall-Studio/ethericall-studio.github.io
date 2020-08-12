@@ -1,10 +1,38 @@
 ---
 layout: "null"
 ---
+/* (c) IGOR KOWALCZYK for Ethericall Studio. All rights reserved. */
+
 :root {
 --333: #333;
 --f4f4f4: #f4f4f4;
 --white: #fff;
+--text: #000;
+--scrollbar-thumb: #888;
+--scrollbar: #fff;
+--scrollbar-hover: #4a4a4a;
+--scrollbar-active: #383838;
+--title: #000;
+--preloader: #fff;
+--spinner: #00a3a3;
+--spinner-border: #f3f3f3;
+--light: #fff;
+}
+
+[data-theme=dark] {
+--333: #fff;
+--f4f4f4: #4a4a4a;
+--text: #fff;
+--white: #222;
+--scrollbar: #222;
+--scrollbar-thumb: #2b2b2b;
+--scrollbar-hover: #363636;
+--scrollbar-active: #454545;
+--title: #fff;
+--preloader: #222;
+--spinner: #888;
+--spinner-border: #333;
+--light: #000;
 }
 
 @font-face {
@@ -175,11 +203,30 @@ transition: 500ms all;
 stroke: #ccc;
 }
 
+* {
+scrollbar-color: #353535 transparent;
+scrollbar-width: thin;
+}
+
 body {
 font-family: Roboto-Thin;
 font-size: 20px;
-margin: 0 !important;
-background-color: #fff;
+margin: 0 0 !important;
+background-color: var(--white);
+-webkit-font-smoothing: antialiased;
+overflow-x: hidden;
+-webkit-animation: fade 0.5s ease-in;
+animation: fade 0.5s ease-in;
+transition: 500ms all;
+}
+
+@keyframes fade {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
 }
 
 .wrapper {
@@ -198,6 +245,27 @@ text-align: justify;
 color: #000;
 text-align: center;
 margin: 80px 10% 10% 10%;
+}
+
+
+::-webkit-scrollbar {
+width: 6px;
+background-color: var(--scrollbar);
+cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: var(--scrollbar-thumb);
+height: 6px;
+background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color: var(--scrollbar-hover);
+}
+
+::-webkit-scrollbar-thumb:active {
+background-color: var(--scrollbar-active);
 }
 
 a {
@@ -226,7 +294,7 @@ hr {
 opacity: 0,5;
 border: 0;
 height: 1px;
-background: #333;
+background: var(--333);
 }
 
 @media screen and (max-width: 500px) {
@@ -262,23 +330,18 @@ margin-left: auto;
 font-size: 54px;
 margin-bottom: .3em;
 transition: 500ms all;
-color: #fff;
+color: var(--text);
 }
 
 .hero-title2 {
 font-size: 30px;
 transition: 500ms all;
-color: #fff;
-}
-
-#logoonhome {
-margin-left: 120px;
-margin-top: 10px;
+color: var(--text);
 }
 
 #footer {
 text-align: center;
-color: #000;
+color: var(--text);
 font-size: 12px;
 margin: 2em;
 transition: 500ms all;
@@ -319,25 +382,4 @@ font-weight: bold;
 #m {
 font-size: 22px;
 text-align: center;
-}
-
-#contactcard {
-border-radius: 25px;
-background: #333;
-padding: 20px;
-width: 500px;
-height: 100px;
-color: #fff;
-text-align: center;
-margin-left: 200px;
-}
-
-#link, #link:visited, #link:hover {
-color: #fff;
-}
-
-#switch {
-float: left;
-color: #D5D5D5;
-font-family: Roboto-Thin;
 }
