@@ -277,6 +277,10 @@ background-color: var(--scrollbar-hover);
 background-color: var(--scrollbar-active);
 }
 
+.perm-white {
+color: #fff !important;
+}
+
 a {
 position: relative;
 color: var(--link) !important;
