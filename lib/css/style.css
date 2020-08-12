@@ -362,11 +362,15 @@ transition: 500ms all;
 color: #fff;
 }
 
-#footer {
+.footer {
 text-align: center;
 color: var(--text);
 font-size: 12px;
 margin: 2em;
+}
+
+.footerversion {
+transition: 500ms all
 }
 
 p {
