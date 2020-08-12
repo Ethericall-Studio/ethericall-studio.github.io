@@ -330,13 +330,13 @@ margin-left: auto;
 font-size: 54px;
 margin-bottom: .3em;
 transition: 500ms all;
-color: var(--text);
+color: #fff;
 }
 
 .hero-title2 {
 font-size: 30px;
 transition: 500ms all;
-color: var(--text);
+color: #fff;
 }
 
 #footer {
