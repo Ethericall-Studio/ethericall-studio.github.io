@@ -332,8 +332,9 @@ font-size: 30px !important;
 }
 }
 
-.about {
+section {
 transition: 500ms all;
+color: var(--text);
 }
 
 .section-title {
