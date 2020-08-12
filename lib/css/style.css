@@ -17,6 +17,8 @@ layout: "null"
 --spinner: #00a3a3;
 --spinner-border: #f3f3f3;
 --light: #fff;
+--color-888: #888;
+--switch-slider: #888;
 }
 
 [data-theme=dark] {
@@ -33,6 +35,8 @@ layout: "null"
 --spinner: #888;
 --spinner-border: #333;
 --light: #000;
+--color-888: #000;
+--switch-slider: #fff;
 }
 
 @font-face {
@@ -382,4 +386,70 @@ font-weight: bold;
 #m {
 font-size: 22px;
 text-align: center;
+}
+
+.switch, .theme-switch {
+display: inline-block;
+height: 34px;
+position: relative;
+width: 60px;
+}
+
+.switch input, .theme-switch input {
+display: none;
+}
+
+.switch-container, .theme-switch-container {
+position: sticky;
+top: 0
+}
+
+.slider, .slider-switch {
+background-color: rgba(31, 31, 31, 0.8);
+bottom: 0;
+cursor: pointer;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+transition: 0.4s;
+}
+
+.slider-switch:before {
+background-color: var(--switch-slider);
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: 0.4s;
+width: 26px;
+}
+
+.slider:before {
+background-color: var(--color-888);
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: 0.4s;
+width: 26px;
+}
+
+input:checked+.slider, input:checked+.slider-switch {
+background-color: #888;
+}
+
+input:checked+.slider-switch:before, input:checked+.slider:before {
+transform: translateX(26px);
+background-color: #fff;
+}
+
+.slider-switch.round, .slider.round {
+border-radius: 34px;
+}
+
+.slider-switch.round:before, .slider.round:before {
+border-radius: 50%;
 }
