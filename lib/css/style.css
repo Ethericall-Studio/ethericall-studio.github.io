@@ -251,8 +251,9 @@ padding: 40px 0;
 margin-left: auto;
 margin-right: auto;
 text-align: justify;
-color: #000;
+color: var(--text);
 text-align: center;
+transition: 500ms all;
 margin: 80px 10% 10% 10%;
 }
 
@@ -330,11 +331,6 @@ font-size: 20px !important;
 .section-title {
 font-size: 30px !important;
 }
-}
-
-section {
-transition: 500ms all;
-color: var(--text);
 }
 
 .section-title {
