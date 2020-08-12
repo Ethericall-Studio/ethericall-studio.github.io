@@ -1,0 +1,15 @@
+---
+layout: "default"
+---
+<html lang="en">
+{% include head.html %}
+<body ondragstart="return false" ondrag="return false">
+<div class="page">
+{% include nav.html %}
+<div class="content">
+{{ content }}
+</div>
+{% include footer.html %}
+<script src="{{ site.url }}{{ site.baseurl }}/lib/js/index.min.js"></script>
+</body>
+</html>
