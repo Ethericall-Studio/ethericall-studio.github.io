@@ -6,6 +6,14 @@ lang: "en"
 <p id="m">[CEO] Dawid "Rein" Rycharski</p>
 <p id="m">Łukasz "Gorol" Niezborała</p>
 <p id="m">Mateusz "Rocky1725" Dziedzic</p>
+<p id="m">Marcel "MK" Kołodziej</p>
+
+---
+
+<p id="h">Lore</p>
+<p id="m">[CEO] Dawid "Rein" Rycharski</p>
+<p id="m">Łukasz "Gorol" Niezborała</p>
+<p id="m">Mateusz "Rocky1725" Dziedzic</p>
 
 ---
 
@@ -38,6 +46,7 @@ lang: "en"
 <p id="m">[Head Marketing] Wiktor "Wiewioor" Landorf</p>
 <p id="m">Jakub "Skull01001" Morawiec</p>
 <p id="m">Krzysztof "Karixowaty" Chachuła</p>
+<p id="m">Bitowsky</p>
 
 ---
 
