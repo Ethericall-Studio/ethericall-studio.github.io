@@ -355,13 +355,13 @@ margin-left: auto;
 font-size: 54px;
 margin-bottom: .3em;
 transition: 500ms all;
-color: #fff;
+color: var(--text);
 }
 
 .hero-title2 {
 font-size: 30px;
 transition: 500ms all;
-color: #fff;
+color: var(--text);
 }
 
 .footer {
