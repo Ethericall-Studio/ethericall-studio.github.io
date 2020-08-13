@@ -26,8 +26,8 @@ lang: "pl"
 <p id="h">Programowanie</p>
 <p id="m">[Główny Programista] Marcin "MarcinK50" Kowalicki</p>
 <p id="m">[Web deweloper] Igor "Majo" Kowalczyk</p>
-<p id="m">[Web deweloper] Oskar "Dogel" Maj</p>
 <p id="m">[Web deweloper] Piotr "Foxyg3n" Suchecki</p>
+<p id="m">[Skrypter] Oskar "Dogel" Maj</p>
 <p id="m">[Skrypter] Marcel "MK" Kołodziej</p>
 <p id="m">[Skrypter] Łukasz "xBeefyOreoX" Puchała</p>
 
