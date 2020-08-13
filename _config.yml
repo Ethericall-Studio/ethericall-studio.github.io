@@ -31,7 +31,7 @@ discord-id: "623945078506782762"
 twitter: "@ethericall"
 
 # Site base-url (no slash at end, not link!)
-baseurl: "index"
+baseurl: "/index"
 
 # Site url (link or dir eg. "/site" or "https://igorkowalczyk.github.io
 url: "https://ethericall-studio.github.io"
