@@ -482,6 +482,11 @@ border-radius: 34px;
 border-radius: 50%;
 }
 
+.lang-switch {
+    font-weight: bold;
+    font-size: 16px;
+}
+
 li, ul {
 list-style: none;
 padding: 0;
