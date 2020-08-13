@@ -1,11 +1,3 @@
-window.addEventListener('click', () => {
-	
-	var rythm = new Rythm()
-	rythm.crossOrigin = 'anonymous';
-rythm.setMusic('js/urdead.mp3');
-	rythm.addRythm('fontColor2', 'color', 0, 10, {
-              from: [255,0,0],
-              to:[100,0,150]
-            })
-rythm.start();
-});
+/* (c) IGOR KOWALCZYK for Ethericall Studio. All rights reserved. */
+
+document.addEventListener("click",function(e){if("A"===e.target.tagName&&e.target.href&&"_blank"!=e.target.target){e.preventDefault();var t=e.target;document.body.style.opacity=0,document.body.addEventListener("transitionend",function(){location.href=t.href})}});const toggletheme=document.querySelector('.theme-switch input[type="checkbox"]'),currenttheme=localStorage.getItem("theme"),meta=document.querySelector('meta[name="theme-color"]');function switchtheme(e){e.target.checked?(document.documentElement.setAttribute("data-theme","dark"),meta.setAttribute("content","#222"),localStorage.setItem("theme","dark")):(document.documentElement.setAttribute("data-theme","light"),meta.setAttribute("content","#ffffff"),localStorage.setItem("theme","light"))}currenttheme&&(document.documentElement.setAttribute("data-theme",currenttheme),"dark"===currenttheme&&(toggletheme.checked=!0)),toggletheme.addEventListener("change",switchtheme,!1);
