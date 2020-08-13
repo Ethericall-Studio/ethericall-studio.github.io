@@ -5,9 +5,16 @@
 <input type="checkbox" id="checkbox"/>
 <div class="slider round"></div>
 </label>
-</div><div class="option-description">Light/Dark Mode</div></li>
+</div><div class="option-description">{% if page.lang == "pl" %}Jasny/Ciemny Tryb{% else %}Light/Dark Mode{% endif %}</div></li>
 </ul>
-<p>{{ site.name }} (c) All rights reserved</p>
-<p>Site Designed and Created by <a href="https://igorkowalczyk.github.io/?ref=Ethericall">Igor Kowalczyk</a></p>
+{% if page.lang %}
+{% if page.lang == "pl" %}
+<a href='{{ site.url }}{{ site.baseurl }}{{ page.url | remove: "-pl.html" }}'>English version</a>
+{% else %}
+<a href='{{ site.url }}{{ site.baseurl }}{{ page.url | remove: ".html" | append: "-pl"}}'>Polish Version</a>
+{% endif %}
+{% endif %}
+<p>{{ site.name }} (c) {% if page.lang == "pl" %}Wszystkie prawa zastrzeżone{% else %}All rights reserved{% endif%}</p>
+<p>{% if page.lang == "pl" %}Strona zaprojektowana i wykonana przez{% else %}Site Designed and Created by{% endif %} <a href="https://igorkowalczyk.github.io/?ref=Ethericall">Igor Kowalczyk</a></p>
 <small class="footerversion">{{ site.version }}</small>
 </div>

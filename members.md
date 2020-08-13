@@ -1,5 +1,6 @@
 ---
 layout: "default"
+lang: "en"
 ---
 <p id="h">Managment</p>
 <p id="m">[CEO] Dawid "Rein" Rycharski</p>

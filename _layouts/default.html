@@ -1,7 +1,11 @@
 ---
 layout: "default"
 ---
+{% if page.lang == "pl" %}
+<html lang="pl">
+{% else %}
 <html lang="en">
+{% endif %}
 {% include head.html %}
 <body ondragstart="return false" ondrag="return false">
 <div class="page">

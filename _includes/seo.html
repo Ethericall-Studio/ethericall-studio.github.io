@@ -1,7 +1,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
 {% if site.mobile != "false" %}
+{% if page.lang == "pl" %}
+<meta name="copyright" content="(c) Wszelkie prawa zastrzeżone, Igor Kowalczyk {{ site.first-lauch }} do dzisiaj">
+{% else %}
 <meta name="copyright" content="(c) Copyright Igor Kowalczyk {{ site.first-lauch }} to Present">
+{% endif %}
 <meta name="HandheldFriendly" content="true">
 <meta name="MobileOptimized" content="375">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -9,7 +13,11 @@
 <meta http-equiv="cleartype" content="on">
 {% endif %}
 <meta name="theme-color" content="#fff">
+{% if page.lang == "pl" %}
+<meta property="og:locale" content="pl_PL">
+{% else %}
 <meta property="og:locale" content="en_US">
+{% endif %}
 <meta property="og:type" content="website">
 <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %} {{ site.title }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
