@@ -17,11 +17,11 @@ lang: "en"
 
 <p id="h">Coding</p>
 <p id="m">[Head Coder] Marcin "MarcinK50" Kowalicki</p>
-<p id="m">[Website Creator] Igor "Majo" Kowalczyk</p>
-<p id="m">[Website Creator] Oskar "Dogel" Maj</p>
-<p id="m">Marcel "MK" Kołodziej</p>
-<p id="m">Łukasz "xBeefyOreoX" Puchała</p>
-<p id="m">Piotr "Foxyg3n" Suchecki</p>
+<p id="m">[Webdev] Igor "Majo" Kowalczyk</p>
+<p id="m">[Webdev] Oskar "Dogel" Maj</p>
+<p id="m">[Webdev] Piotr "Foxyg3n" Suchecki</p>
+<p id="m">[Game scripter] Marcel "MK" Kołodziej</p>
+<p id="m">[Game scripter] Łukasz "xBeefyOreoX" Puchała</p>
 
 ---
 
