@@ -9,9 +9,9 @@
 </ul>
 {% if page.lang %}
 {% if page.lang == "pl" %}
-<a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/index-pl.html" %}index{% else %}{{ page.url | remove: "-pl.html"}}{% endif %}'>English version</a>
+<a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/index-pl.html" %}/index{% else %}{{ page.url | remove: "-pl.html"}}{% endif %}'>English version</a>
 {% else %}
-<a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/index.html" %}index-pl{% else %}{{ page.url | remove: ".html" | append: "-pl"}}{% endif %}'>Polish Version</a>
+<a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/" %}/index-pl{% else %}{{ page.url | remove: ".html" | append: "-pl"}}{% endif %}'>Polish Version</a>
 {% endif %}
 {% endif %}
 <p>{{ site.name }} (c) {% if page.lang == "pl" %}Wszystkie prawa zastrzeżone{% else %}All rights reserved{% endif%}</p>
