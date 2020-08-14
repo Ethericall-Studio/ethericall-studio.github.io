@@ -11,7 +11,7 @@ lang: "pl"
 ---
 
 <p id="h">Fabuła</p>
-<p id="m">[CEO] Dawid "Rein" Rycharski</p>
+<p id="m">[Head Writer] Dawid "Rein" Rycharski</p>
 <p id="m">Łukasz "Gorol" Niezborała</p>
 <p id="m">Mateusz "Rocky1725" Dziedzic</p>
 
