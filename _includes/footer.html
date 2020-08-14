@@ -9,7 +9,7 @@
 </ul>
 {% if page.lang %}
 {% if page.lang == "pl" %}
-<a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/index-pl.md" %}/index{% else %}{{ page.url | remove: "-pl.html"}}{% endif %}'>English version</a>
+<a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/index-pl" %}/index{% else %}{{ page.url | remove: "-pl.html"}}{% endif %}'>English version</a>
 {% else %}
 <a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/" %}/index-pl{% else %}{{ page.url | remove: ".html" | append: "-pl"}}{% endif %}'>Polish Version</a>
 {% endif %}
