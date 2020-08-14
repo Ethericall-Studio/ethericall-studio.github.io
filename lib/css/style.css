@@ -305,7 +305,7 @@ background-repeat: no-repeat;
 text-align: center;
 background-attachment: fixed;
 background-position: center;
-background-image: url({{ site.url }} {{ site.baseurl }}/lib/pics/background.jpg);
+background-image: url({{ site.url }}{{ site.baseurl }}/lib/pics/background.jpg);
 width: 100%;
 height: 100vh;
 color: var(--light);
