@@ -349,6 +349,7 @@ grid-template-columns: 1fr;
 max-width: 1224px;
 margin-right: auto;
 margin-left: auto;
+backdrop-filter: blur(1px);
 }
 
 .hero-title {
@@ -362,6 +363,7 @@ color: #fff;
 font-size: 30px;
 transition: 500ms all;
 color: #fff;
+text-shadow: 0px 0px 5px black;
 }
 
 .footer {
