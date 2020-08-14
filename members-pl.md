@@ -34,7 +34,7 @@ lang: "pl"
 ---
 
 <p id="h">Grafika</p>
-<p id="m">[Głównt grafik] Łukasz "Gorol" Niezborała</p>
+<p id="m">[Główny grafik] Łukasz "Gorol" Niezborała</p>
 <p id="m">Piotr "Sn3a4y" Olesiński</p>
 <p id="m">Oskar "Qwerstin" Tomaszkiewicz</p>
 <p id="m">Jakub "Skull01001" Morawiec</p>
