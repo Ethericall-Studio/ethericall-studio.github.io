@@ -46,7 +46,7 @@ lang: "en"
 <p id="m">[Head Marketing] Wiktor "Wiewioor" Landorf</p>
 <p id="m">Jakub "Skull01001" Morawiec</p>
 <p id="m">Krzysztof "Karixowaty" Chachuła</p>
-<p id="m">Bitowsky</p>
+<p id="m">Radosław Bitowsky Michalski</p>
 
 ---
 
