@@ -12,5 +12,5 @@ layout: "default"
 </div>
 </section>
 <section class="about">
-Something about us....
+Trochę o nas....
 </section>
