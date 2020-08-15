@@ -3,6 +3,14 @@ layout: "default"
 lang: "en"
 ---
 # Ethericall Studio
-The Studio was founded in September 2018, under the name of KryptoPixels Designs Studio. Studio's first project was gamed called "Nation in Blood", which I've been working for a year before. It was really ambitious, but we took it. After not that long, we opened for contactas from abroad, which turned out to be profitable. Then there was a little crisis and the project was frozen. We returned as the Ethericall and started doing something else - "Monster Cells", which was even more ambitious, but too big and complicated for such a small Studio, so it was frozen too. After that we returned to the "Nation in Blood", it was quite promising, but one of our employes attacked the Studio, which closed everything. After many months we returned as the new Ethericall with new project - The Warsaw Metro Simulator, but it was closed due to too small niche. Right now we're working on new, and hopefully, final product - Fantasy RPG from isometric view.
+Studio was created in September of 2018 under the name of KryptoPixels Design Studio.
+
+It's first project was game called "Nation in Blood", which was prepared year before creating the Studio. The project was very ambitious and we made advancements. After not so long, we opened to the people from abroad, which was profitable. Unfortunately after some time, KPDS fell after crisis and project was frozen.
+
+That's when Ethericall was created and we started working on another game - "Monster Cells". It was too ambitious for such little and young studio.
+
+After that we returned to "Nation in Blood". From the beginning we made huge advancements, but because of setback, the Studio was closed.
+
+Many months later we returned as the New Ethericall with new game - The Warsaw Metro Simulator, but we abandoned it because of too small niche. Right now we are working on new, and let's hope, final project called "Tale of 7 Lands". 
 
 ~~ Rein - CEO and Founder
