@@ -44,7 +44,6 @@ lang: "pl"
 
 <p id="h">Marketing</p>
 <p id="m">[Naczelny Marketingowiec] Wiktor "Wiewioor" Landorf</p>
-<p id="m">Jakub "Skull01001" Morawiec</p>
 <p id="m">Krzysztof "Karixowaty" Chachuła</p>
 <p id="m">Radosław "Bitowsky" Michalski</p>
 
