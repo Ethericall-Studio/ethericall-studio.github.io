@@ -37,7 +37,6 @@ lang: "en"
 <p id="m">[Head Graphic] Łukasz "Gorol" Niezborała</p>
 <p id="m">Piotr "Sn3a4y" Olesiński</p>
 <p id="m">Oskar "Qwerstin" Tomaszkiewicz</p>
-<p id="m">Jakub "Skull01001" Morawiec</p>
 <p id="m">Maciej "SlavicMC" Cieżak</p>
 
 ---
