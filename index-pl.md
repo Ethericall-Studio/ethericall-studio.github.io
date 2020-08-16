@@ -9,6 +9,10 @@ lang: "pl"
 <p class="hero-title2">
 Jesteśmy grupą entuzjastów, tworzącą gry. Jako studio aktualnie pracujemy nad grą RPG.{% if site.discord %} Jeżeli jesteś zainteresowany/a zapraszamy Cię na nasz serwer <a href="{{ site.url }}{{ site.baseurl }}/discord-pl" class="perm-white">Discord</a>, żeby dowiedzieć się więcej. Mamy nadzieję, że się zjawisz.
 {% endif %}</p>
+<style>.footer .social-media {
+display: none;
+}
+</style>
 {% include icons.html %}
 </div>
 </section>
