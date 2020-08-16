@@ -19,6 +19,7 @@ If you are interested, we invite you to our <a href="{{ site.url }}{{ site.baseu
 <div class="about-2">
 <h1>About us</h1>
 <p>Studio was created in September of 2018 under the name of KryptoPixels Design Studio.
-It’s first project was game called “Nation in Blood“... <a href="{{ site.url }}{{ site.baseurl }}/about">Read More</a>
+It’s first project was game called "Nation in Blood"
+<a href="{{ site.url }}{{ site.baseurl }}/about">Read More</a></p>
 </div>
 </section>
