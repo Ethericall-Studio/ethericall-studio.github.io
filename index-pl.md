@@ -12,7 +12,7 @@ Jesteśmy grupą entuzjastów, tworzącą gry. Jako studio aktualnie pracujemy n
 </div>
 </section>
 <section class="about">
-# O tym co robimy
+<h1>O tym co robimy</h1>
 
 Studio Ethericall od początku swojej działalności zajmuje się tworzeniem produktów cyfrowych, tj. gier komputerowych.
 </section>
