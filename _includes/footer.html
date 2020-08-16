@@ -14,7 +14,7 @@
 <a class="lang-switch" href='{{ site.url }}{{ site.baseurl }}{% if page.url == "/" %}/index-pl{% else %}{{ page.url | remove: ".html" | append: "-pl"}}{% endif %}'>Polish Version</a>
 {% endif %}
 {% endif %}
+{% include icons.html %}
 <p>{{ site.name }} (c) {% if page.lang == "pl" %}Wszystkie prawa zastrzeżone{% else %}All rights reserved{% endif%}</p>
 <p>{% if page.lang == "pl" %}Strona zaprojektowana i wykonana przez{% else %}Site Designed and Created by{% endif %} <a href="https://igorkowalczyk.github.io/?ref=Ethericall">Igor Kowalczyk</a></p>
-<small class="footerversion">{{ site.version }}</small>
 </div>
