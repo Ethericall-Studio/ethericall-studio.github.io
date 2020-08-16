@@ -4,7 +4,7 @@ lang: "pl"
 ---
 <p id="h">Zarząd</p>
 <p id="m">[CEO] Dawid "Rein" Rycharski</p>
-<p id="m">Łukasz "Gorol" Niezborała</p>
+<p id="m">[VICE] Łukasz "Gorol" Niezborała</p>
 <p id="m">Mateusz "Rocky1725" Dziedzic</p>
 <p id="m">Marcel "MK" Kołodziej</p>
 
@@ -24,11 +24,11 @@ lang: "pl"
 ---
 
 <p id="h">Programowanie</p>
-<p id="m">[Naczelny Programista] Marcin "MarcinK50" Kowalicki</p>
+<p id="m">[Naczelny Programista] Marcel "MK" Kołodziej</p>
+<p id="m">[Web deweloper] Marcin "MarcinK50" Kowalicki</p>
 <p id="m">[Web deweloper] Igor "Majo" Kowalczyk</p>
 <p id="m">[Web deweloper] Piotr "Foxyg3n" Suchecki</p>
 <p id="m">[Skrypter] Oskar "Dogel" Maj</p>
-<p id="m">[Skrypter] Marcel "MK" Kołodziej</p>
 <p id="m">[Skrypter] Łukasz "xBeefyOreoX" Puchała</p>
 
 ---
@@ -45,6 +45,7 @@ lang: "pl"
 <p id="m">[Naczelny Marketingowiec] Wiktor "Wiewioor" Landorf</p>
 <p id="m">Krzysztof "Karixowaty" Chachuła</p>
 <p id="m">Radosław "Bitowsky" Michalski</p>
+<p id="m">Łukasz "Gorol" Niezborała</p>
 
 ---
 

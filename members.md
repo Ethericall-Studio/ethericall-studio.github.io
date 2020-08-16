@@ -4,7 +4,7 @@ lang: "en"
 ---
 <p id="h">Managment</p>
 <p id="m">[CEO] Dawid "Rein" Rycharski</p>
-<p id="m">Łukasz "Gorol" Niezborała</p>
+<p id="m">[SIC] Łukasz "Gorol" Niezborała</p>
 <p id="m">Mateusz "Rocky1725" Dziedzic</p>
 <p id="m">Marcel "MK" Kołodziej</p>
 
@@ -24,11 +24,11 @@ lang: "en"
 ---
 
 <p id="h">Coding</p>
-<p id="m">[Head Coder] Marcin "MarcinK50" Kowalicki</p>
+<p id="m">[Head Coder] Marcel "MK" Kołodziej</p>
+<p id="m">[Webdev] Marcin "MarcinK50" Kowalicki</p>
 <p id="m">[Webdev] Igor "Majo" Kowalczyk</p>
 <p id="m">[Webdev] Piotr "Foxyg3n" Suchecki</p>
 <p id="m">[Game scripter] Oskar "Dogel" Maj</p>
-<p id="m">[Game scripter] Marcel "MK" Kołodziej</p>
 <p id="m">[Game scripter] Łukasz "xBeefyOreoX" Puchała</p>
 
 ---
@@ -45,6 +45,7 @@ lang: "en"
 <p id="m">[Head Marketing] Wiktor "Wiewioor" Landorf</p>
 <p id="m">Krzysztof "Karixowaty" Chachuła</p>
 <p id="m">Radosław "Bitowsky" Michalski</p>
+<p id="m">Łukasz "Gorol" Niezborała</p>
 
 ---
 
