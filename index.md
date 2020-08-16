@@ -16,4 +16,9 @@ If you are interested, we invite you to our <a href="{{ site.url }}{{ site.baseu
 <h1>What are we doing</h1>
 <p>Ethericall Studio from the beginning is working on making video games.</p>
 </div>
+<div class="about-2">
+<h1>About us</h1>
+<p>Studio was created in September of 2018 under the name of KryptoPixels Design Studio.
+It’s first project was game called “Nation in Blood“... <a href="{{ site.url }}{{ site.baseurl }}/about">Read More</a>
+</div>
 </section>
