@@ -12,7 +12,8 @@ If you are interested, we invite you to our <a href="{{ site.url }}{{ site.baseu
 </div>
 </section>
 <section class="about">
+<div class="about-1">
 <h1>What are we doing</h1>
-
-Ethericall Studio from the beginning is working on making video games.
+<p>Ethericall Studio from the beginning is working on making video games.</p>
+</div>
 </section>
