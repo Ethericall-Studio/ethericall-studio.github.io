@@ -24,6 +24,9 @@ display: none;
 <div class="about-1">
 <h1>O tym co robimy</h1>
 <p>Studio Ethericall od początku swojej działalności zajmuje się tworzeniem produktów cyfrowych, tj. gier komputerowych.</p>
+<div class="center-button">
+<a href="{{ site.url }}{{ site.baseurl }}/projects-pl" class="button">Zobacz naszą pracę/a>
+</div>
 </div>
 <div class="about-2">
 <h1>O nas</h1>
@@ -31,6 +34,5 @@ display: none;
 Studio powstało we wrześniu 2018 roku pod nazwą KryptoPixels Designs Studio.
   
 Pierwszym projektem studia była gra „Nation in Blood”
-<a href="https://ethericall.com/about-pl">Czytaj więcej</a></p>
-</div>
-</section>
+<div class="center-button">
+<a href="{{ site.url }}{{ site.baseurl }}/about-pl" class="button">Czytaj więcej</a>
