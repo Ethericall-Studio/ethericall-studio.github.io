@@ -22,6 +22,10 @@ layout: "null"
 --link: #000;
 --00a3a3: #00a3a3;
 --media: #000;
+--button: rgba(227, 227, 227, 0.8);
+--button-hover: rgba(227, 227, 227, 0.5);
+--button-text: #333;
+--fill-menu: #000;
 }
 
 [data-theme=dark] {
@@ -44,6 +48,10 @@ layout: "null"
 --link: #fff;
 --00a3a3: #fff;
 --media: #fff;
+--button: #404040;
+--buton-hover: #4a4a4a;
+--button-text: #fff;
+--fill-menu: #fff;
 }
 
 @font-face {
@@ -399,6 +407,44 @@ margin: 2em;
 
 .footerversion {
 transition: 500ms all
+}
+
+button {
+line-height: 20px;
+padding: 12px 24px 12px 24px;
+font-weight: 700;
+display: inline-block;
+margin: 5px;
+word-break: keep-all;
+font-size: 14px;
+font-weight: 200;
+color: var(--button-text);
+background: var(--button);
+text-decoration: none;
+border-radius: 4px;
+text-align: center;
+}
+
+center-button {
+display: grid;
+}
+
+center-button .button {
+justify-self: center;
+}
+
+button:hover {
+background: var(--button-hover);
+color: var(--button-text);
+}
+
+button svg {
+margin: auto;
+fill: var(--fill-menu);
+}
+
+button * {
+transition: 500ms all;
 }
 
 p {
