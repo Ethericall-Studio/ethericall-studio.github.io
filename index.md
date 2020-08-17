@@ -12,6 +12,10 @@ If you are interested, we invite you to our <a href="{{ site.url }}{{ site.baseu
 <style>.footer .social-media {
 display: none;
 }
+
+:root {
+--media: #fff;
+}
 </style>
 {% include icons.html %}
 </div>
