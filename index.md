@@ -35,6 +35,4 @@ display: none;
 It’s first project was game called "Nation in Blood"
 <div class="center-button">
 <a href="{{ site.url }}{{ site.baseurl }}/about" class="button">Read More</a>
-</div>
-</div>
-</section>
+
