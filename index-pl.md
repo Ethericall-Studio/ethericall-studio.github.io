@@ -25,7 +25,7 @@ display: none;
 <h1>O tym co robimy</h1>
 <p>Studio Ethericall od początku swojej działalności zajmuje się tworzeniem produktów cyfrowych, tj. gier komputerowych.</p>
 <div class="center-button">
-<a href="{{ site.url }}{{ site.baseurl }}/projects-pl" class="button">Zobacz naszą pracę/a>
+<a href="{{ site.url }}{{ site.baseurl }}/projects-pl" class="button">Zobacz naszą pracę</a>
 </div>
 </div>
 <div class="about-2">
