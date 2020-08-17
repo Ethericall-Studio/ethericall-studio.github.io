@@ -27,11 +27,9 @@ display: none;
 <div class="center-button">
 <a href="{{ site.url }}{{ site.baseurl }}/projects" class="button">See our work</a>
 </div>
-</div>
 <div class="about-2">
 <h1>About us</h1>
 <p>Studio was created in September of 2018 under the name of KryptoPixels Design Studio.
-
 It’s first project was game called "Nation in Blood"
 <div class="center-button">
 <a href="{{ site.url }}{{ site.baseurl }}/about" class="button">Read More</a>
