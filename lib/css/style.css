@@ -398,6 +398,16 @@ transform: scale(1.3, 1.3);
 background-size: 0;
 }
 
+.about > div {
+    padding: 50px 150px;
+}
+
+@media screen and (max-width: 800px) {
+.about > div {
+    padding: 50px 20px;
+}
+}
+
 .footer {
 text-align: center;
 color: var(--text);
