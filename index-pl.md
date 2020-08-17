@@ -12,6 +12,10 @@ Jesteśmy grupą entuzjastów, tworzącą gry. Jako studio aktualnie pracujemy n
 <style>.footer .social-media {
 display: none;
 }
+  
+:root {
+--media: #fff;
+}
 </style>
 {% include icons.html %}
 </div>
