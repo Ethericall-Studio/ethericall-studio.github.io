@@ -409,7 +409,7 @@ margin: 2em;
 transition: 500ms all
 }
 
-button {
+.button {
 line-height: 20px;
 padding: 12px 24px 12px 24px;
 font-weight: 700;
@@ -425,25 +425,25 @@ border-radius: 4px;
 text-align: center;
 }
 
-center-button {
+.center-button {
 display: grid;
 }
 
-center-button .button {
+.center-button .button {
 justify-self: center;
 }
 
-button:hover {
+.button:hover {
 background: var(--button-hover);
 color: var(--button-text);
 }
 
-button svg {
+.button svg {
 margin: auto;
 fill: var(--fill-menu);
 }
 
-button * {
+.button * {
 transition: 500ms all;
 }
 
