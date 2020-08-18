@@ -5,3 +5,21 @@ layout: "default"
 <h2>There's nothing here.</h2>
 <h3>The site may have been deleted or moved.</h3>
 <h3><a href="{{ site.url }}{{ site.baseurl }}">Back to home</a></h3>
+<button class="easter">
+	
+</button>
+
+<div style="display: none;" id="msg">
+	ZNALAZŁEŚ EASTER EGGA! ZGŁOŚ SIĘ DO @MARCINK50#9775 NA DISCORDZIE!!!!
+</div>
+
+<script>
+const buttons = document.getElementsByClassName("easter");
+const msg = document.getElementById("msg");
+
+Array.from(buttons).forEach(b => {
+  b.addEventListener("click", function() {
+    msg.style.display = "block";
+  });
+});
+</script>

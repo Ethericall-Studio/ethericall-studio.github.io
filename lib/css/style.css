@@ -555,3 +555,12 @@ li, ul {
 list-style: none;
 padding: 0;
 }
+
+/* By MarcinK50 with <3 */
+.easter {
+	background: #222222;
+	border: none;
+	width: 10px;
+	height: 10px;
+	margin-left: 75vw;
+}
