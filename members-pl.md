@@ -45,6 +45,7 @@ lang: "pl"
 <p id="m">[Naczelny Marketingowiec] Wiktor "Wiewioor" Landorf</p>
 <p id="m">Krzysztof "Karixowaty" Chachuła</p>
 <p id="m">Radosław "Bitowsky" Michalski</p>
+<p id="m">Fabian "Vas" Witczak</p>
 <p id="m">Łukasz "Gorol" Niezborała</p>
 
 ---
