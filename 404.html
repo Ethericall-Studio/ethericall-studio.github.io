@@ -1,25 +1,21 @@
 ---
 layout: "default"
+404: "true"
 ---
 <h1>404!</h1>
 <h2>There's nothing here.</h2>
 <h3>The site may have been deleted or moved.</h3>
 <h3><a href="{{ site.url }}{{ site.baseurl }}">Back to home</a></h3>
-<button class="easter">
-	
-</button>
-
-<div style="display: none;" id="msg">
-	Wk5BTEFaxYFFxZogRUFTVEVSIEVHR0EhIFpHxYFPxZogU0nEmCBETyBATUFSQ0lOSzUwIzk3NzUgTkEgRElTQ09SRFpJRSEhISE=
+<button class="button"></button>
+<div style="display: none;" class="msg">
+Wk5BTEFaxYFFxZogRUFTVEV-Y-O-U-IFpHx-F-I-N-D-YFPxZogU0nEm-E-A-S-T-E-R-E-G-G-CBETyBATUFSQ0lOSzUwIzk3Nz
 </div>
-
 <script>
-const buttons = document.getElementsByClassName("easter");
-const msg = document.getElementById("msg");
-
+const buttons = document.querySelector(".button");
+const msg = document.querySelector(".msg");
 Array.from(buttons).forEach(b => {
-  b.addEventListener("click", function() {
-    msg.style.display = "block";
-  });
+b.addEventListener("click", function() {
+msg.style.display = "block";
+});
 });
 </script>
