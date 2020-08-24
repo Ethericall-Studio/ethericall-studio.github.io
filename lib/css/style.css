@@ -26,6 +26,8 @@ layout: "null"
 --button-hover: rgba(227, 227, 227, 0.5);
 --button-text: #333;
 --fill-menu: #000;
+--banner: #ff8c00;
+--banner-text: #fff;
 }
 
 [data-theme=dark] {
@@ -52,6 +54,8 @@ layout: "null"
 --buton-hover: #4a4a4a;
 --button-text: #fff;
 --fill-menu: #fff;
+--banner: #ff8c00;
+--banner-text: #fff;
 }
 
 @font-face {
@@ -63,6 +67,29 @@ src: url('{{ site.url }}{{ site.baseurl }}/lib/fonts/roboto-thin.otf');
 font-size: 9px;
 }
 
+.main-banner {
+position: fixed;
+width: 100%;
+padding: .25rem;
+color: color: var(--banner-text);
+background-color: var(--banner);
+text-align: center;
+font-size: .875rem;
+font-weight: 700;
+z-index: 9999;
+}
+
+.main-banner-link, .main-banner-link:hover {
+color: var(--banner-text) !important;
+background-size: 0%;
+}
+	
+@media screen and (max-width: 463px) {
+.nav  {
+margin-top: 40px;
+}
+}
+
 .nav {
 background-color: var(--white);
 position: fixed;
@@ -72,6 +99,7 @@ transition: 500ms all !important;
 z-index: 9999;
 user-select: none;
 box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+margin-top: 25px;
 }
 
 @media screen and (max-width: 705px) {
