@@ -27,6 +27,16 @@ discord-id: "737997850662666312"
 # Google site verification
 # verivication: "456dsvhbwhygjud"
 
+# Site info banner
+banner:
+ enabled: "true"
+ text: "We currently have availability for work (3D Graphic, C# / Unity)."
+ text-pl: "Mamy wolne miejsca pracy (Grafik 3D, C# / Unity)."
+ link: "jobs"
+ link-pl: "jobs-pl"
+ link-text: "Contact us →"
+ link-text-pl: "Napisz do nas →"
+
 # Twitter
 twitter: "@ethericall"
 # Facebook
