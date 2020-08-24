@@ -71,7 +71,7 @@ font-size: 9px;
 position: fixed;
 width: 100%;
 padding: .25rem;
-color: color: var(--banner-text);
+color: var(--banner-text);
 background-color: var(--banner);
 text-align: center;
 font-size: .875rem;
@@ -86,7 +86,7 @@ background-size: 0%;
 	
 @media screen and (max-width: 463px) {
 .nav  {
-margin-top: 40px;
+margin-top: 40px !important;
 }
 }
 
