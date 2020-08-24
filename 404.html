@@ -1,10 +1,15 @@
 ---
 layout: "404"
+title: "404"
+description: "There's nothing here"
 ---
-<h1>404!</h1>
+<div class="message">
+<h1>404</h1>
 <h2>There's nothing here.</h2>
-<h3>The site may have been deleted or moved.</h3>
-<h3><a href="{{ site.url }}{{ site.baseurl }}">Back to home</a></h3>
+<h3>The site may have been deleted or moved. <a href="{{ site.baseurl }}?ref=404">Return to the home page</a>{% if site.email %} or <a href="mailto:{{ site.email }}">report an error.</a>{% endif %}</h3>
+<p><a class="button" href="{{ site.baseurl }}?ref=404">Home page</a></p>
+{% if site.email %}<p><a class="button" href="mailto:{{ site.email }}">Report Bug</a></p>{% endif %}
+</div>
 <button class="button"></button>
 <div style="display: none;" class="msg">
 Wk5BTEFaxYFFxZogRUFTVEV-Y-O-U-IFpHx-F-I-N-D-YFPxZogU0nEm-E-A-S-T-E-R-E-G-G-CBETyBATUFSQ0lOSzUwIzk3Nz
