@@ -20,9 +20,6 @@
 <meta name="msapplication-config" content="{{ site.url }}{{ site.baseurl }}/lib/favicons/browserconfig.xml">
 {% if site.discord-id and site.discord-theme %}<link rel="preconnect dns-prefetch" href="https://discord.com">{% endif %}
 {% include seo.html %}
-{% if page.layout == '404' %}
-<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/lib/css/404.css">
-{% else %}
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/lib/css/style.css">
 {% endif %}
 {% if page.redirect %}<meta http-equiv="refresh" content="0; url='{{ page.redirect }}'">{% endif %}
