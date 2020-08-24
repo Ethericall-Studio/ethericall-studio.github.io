@@ -584,11 +584,9 @@ list-style: none;
 padding: 0;
 }
 
-/* By MarcinK50 with <3 */
-.easter {
-	background: #222222;
-	border: none;
-	width: 10px;
-	height: 10px;
-	margin-left: 75vw;
+.button {
+opacity: 0;
+pointer-events: all;
+width: 10px;
+height: 10px;
 }
