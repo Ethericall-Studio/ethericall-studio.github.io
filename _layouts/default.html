@@ -11,9 +11,13 @@ layout: "default"
 <body ondragstart="return false" ondrag="return false">
 <div class="page">
 {% if page.lang == "pl" %}
-<aside class="main-banner">Mamy wolne miejsca pracy (Grafik 3D, C# / Unity) <a href="/jobs-pl" class="main-banner-link">Napisz do nas →</a></aside>
+{% if site.banner.enabled == "true" %}
+<aside class="main-banner">{{ site.banner.text-pl }} {% if site.banner.link-pl and site.banner.link-text-pl %}<a href="{{ site.banner.link-pl }}" class="main-banner-link">{{ site.banner.link-text-pl }}</a>{% endif %}</aside>
+{% endif %}
 {% else %}
-<aside class="main-banner">We currently have availability for work (3D Graphic, C# / Unity). <a href="/jobs" class="main-banner-link">Contact us →</a></aside>
+{% if site.banner.enabled == "true" %}
+<aside class="main-banner">{{ site.banner.text }} {% if site.banner.link and site.banner.link-text %}<a href="{{ site.banner.link }}" class="main-banner-link">{{ site.banner.link-text }}</a>{% endif %}</aside>
+{% endif %}
 {% endif %}
 <nav class="nav" role="navigation">
 {% if page.lang == "pl" %}
