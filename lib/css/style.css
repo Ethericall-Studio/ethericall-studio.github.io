@@ -448,7 +448,7 @@ margin: 2em;
 transition: 500ms all
 }
 
-.button-404 {
+.button {
 line-height: 20px;
 padding: 12px 24px 12px 24px;
 font-weight: 700;
@@ -585,7 +585,7 @@ list-style: none;
 padding: 0;
 }
 
-.button {
+.button-404 {
 opacity: 0;
 pointer-events: all;
 width: 10px;
