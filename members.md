@@ -29,7 +29,7 @@ lang: "en"
 <p id="m">[Webdev] Igor "Majo" Kowalczyk</p>
 <p id="m">[Webdev] Piotr "Foxyg3n" Suchecki</p>
 <p id="m">[Game scripter] Oskar "Dogel" Maj</p>
-<p id="m">[Game scripter] Łukasz "xBeefyOreoX" Puchała</p>
+<p id="m">[Game scripter] Łukasz "Oreo" Puchała</p>
 
 ---
 

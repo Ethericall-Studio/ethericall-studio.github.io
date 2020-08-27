@@ -29,7 +29,7 @@ lang: "pl"
 <p id="m">[Web deweloper] Igor "Majo" Kowalczyk</p>
 <p id="m">[Web deweloper] Piotr "Foxyg3n" Suchecki</p>
 <p id="m">[Skrypter] Oskar "Dogel" Maj</p>
-<p id="m">[Skrypter] Łukasz "xBeefyOreoX" Puchała</p>
+<p id="m">[Skrypter] Łukasz "Oreo" Puchała</p>
 
 ---
 
