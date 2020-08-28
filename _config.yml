@@ -30,8 +30,8 @@ discord-id: "737997850662666312"
 # Site info banner
 banner:
  enabled: "true"
- text: "We're currently recruting for work (3D Graphic, C# / Unity)."
- text-pl: "Mamy wolne miejsca pracy (Grafik 3D, C# / Unity)."
+ text: "We're currently recruting for work (3D/2D Graphic, C# / Unity)."
+ text-pl: "Mamy wolne miejsca pracy (Grafik 3D/2D, C# / Unity)."
  # link: "jobs"
  # link-pl: "jobs-pl"
  link: "contact"
