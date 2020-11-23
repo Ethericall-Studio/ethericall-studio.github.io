@@ -1,0 +1,29 @@
+---
+layout: "404"
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>404 - Not Found</title>
+</head>
+
+<body>
+<h1>404 - Not Found</h1>
+<a href="#">Back to home</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.5/rythm.min.js"></script>
+<script>
+window.addEventListener('click', () => {
+
+	var rythm = new Rythm()
+	rythm.crossOrigin = 'anonymous';
+rythm.setMusic('https://librus.fun/sound/urdead.mp3');
+	rythm.addRythm('fontColor2', 'color', 0, 10, {
+              from: [255,0,0],
+              to:[100,0,150]
+            })
+rythm.start();
+}); 
+</script>
+</body>
+</html>
